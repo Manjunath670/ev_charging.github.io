@@ -105,7 +105,7 @@ xhttp.onreadystatechange = function() {
     }
   }
 };
-xhttp.open("POST", "https://api.thingspeak.com/update?api_key=Z2TF11Q5FW4XWEUX&field1=0" + time, true);
+xhttp.open("POST", "https://api.thingspeak.com/update?api_key=Z2TF11Q5FW4XWEUX&field1=" + time, true);
 xhttp.send();
       },
         "payment_method": {
